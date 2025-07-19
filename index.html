@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REC-CSC</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="emojis.com olympic-torch.png">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="#"><img src="logo.png" ></a>
+    </div>
+    <div class="menu">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="https://www.rajalakshmi.org/downloads/syllabus/R2023/R2023-CSE-Curriculum_and_Syllabus.pdf">Portion</a></li>
+      <li><a href="https://api-teachers.rajalakshmi.org/media/febb5aed3faa1265237d8e617b52b415e550f03a221a389212de8683730cdb5c/schedule_website.html">TimeTable</a></li>
+      <li><a href="https://harishofficial.neocities.org/about%20us/about">About US</a></li>
+    </ul>
+  </nav>
+  <hr>
+
+  <div class="contener">
+    <div class="group">
+      <p class="text">This website is currently created for CSE 3rd semester students, with plans to expand soon. Thank you for visiting and supporting the platform.</p>
+    </div>
+  </div>
+
+
+  <div class="resource-buttons">
+    <ul>
+      <li><a href="https://harishofficial.neocities.org/notes.main/note"><button class="res-btn notes">📝 Notes</button></a></li>
+      <li><a href="https://harishofficial.neocities.org/vedios.main/vedio"><button class="res-btn videos">🎥 Videos</button></a></li>
+      <li><a href="https://harishofficial.neocities.org/qp.main/qp"><button class="res-btn papers">📄 Question Papers</button></a></li>
+      <li><a href="https://harishofficial.neocities.org/pq.main/pq"><button class="res-btn practice">🧠 Practice Questions</button></a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menu = document.querySelector('.menu');
+    const menulist = document.querySelector('nav ul');
+    menu.addEventListener('click', () => {
+      menulist.classList.toggle('showmenu');
+    });
+  </script>
+<footer style="margin-top: 80px; background-color: #f3f3f3; padding: 20px 0; text-align: center; color: #444;">
+  <p>© 2025 Rajalakshmi Engineering College | Made with ❤️ for Students</p>
+</footer>
+</body>
+</html>
